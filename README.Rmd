@@ -1,0 +1,44 @@
+---
+title: "README"
+author: "MG"
+date: "7/25/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Author
+María Guinda - mariaguinda@cherrypeaks.com
+
+## Description
+
+DSAIRM is an R package containing a set of simulation models (apps) that teach within-host infection dynamics and immune response modeling from a dynamical system perspective.
+
+All models can be explored through a graphical user interface, no reading or writing code is required. Each app comes with documentation and instructions which teach important concepts of within-host and immune response modeling, and how to use simulation models to understand such concepts.
+
+It is also possible to go beyond the graphical interface and directly access and modify all simulations to adapt them to your needs.
+
+
+## Data
+
+
+
+## Installation and Access App
+
+
+
+## Platforms
+This application was tested on Mac and Windows 10. 
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
