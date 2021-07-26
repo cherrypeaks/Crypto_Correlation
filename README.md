@@ -11,6 +11,10 @@ This is an R package containing a set of models (apps) that have been organized 
 
 All models can be explored through a graphical user interface that has been built into Shiny App, no reading or writing code is required. Each of part has been included into different tabs of the App where users can interact with the models and variables. The app includes instructions which teach important concepts of these tools.
 
+The coding files have been also organized in two sets:
+* The original R-study file: This is Main.R which includes the orignal study code which can be download and used in an R-study. 
+* The Shiny App code: This is the app.R file, which is an addaptation of the original code to build a Shiny App. Both ui and server are included in this file. 
+
 
 ## Data
 These models have been build using historical crypto assets data and some equity and gold ETFs. The data has been included in an XLSX file called Data which can be consulted for replication purposes. The working data, which is historical daily returns, is included in the first 3 tabs (CRYPTO, EQUITIES and BITCOIN). The 4th tab includes the categories list for each crypto asset, which is used for the PCA and the 5th tab includes a list of predetermined historical periods for analysis. 
